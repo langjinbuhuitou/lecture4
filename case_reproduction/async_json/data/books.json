@@ -1,0 +1,12 @@
+[
+  { "id": "B001", "title": "Dart编程实战", "category": "编程", "borrowCount": 45 },
+  { "id": "B002", "title": "Flutter移动开发", "category": "编程", "borrowCount": 38 },
+  { "id": "B003", "title": "算法图解", "category": "编程", "borrowCount": 27 },
+  { "id": "B004", "title": "活着", "category": "文学", "borrowCount": 52 },
+  { "id": "B005", "title": "平凡的世界", "category": "文学", "borrowCount": 41 },
+  { "id": "B006", "title": "人类简史", "category": "历史", "borrowCount": 33 },
+  { "id": "B007", "title": "万历十五年", "category": "历史", "borrowCount": 19 },
+  { "id": "B008", "title": "三体", "category": "科幻", "borrowCount": 60 },
+  { "id": "B009", "title": "流浪地球", "category": "科幻", "borrowCount": 25 },
+  { "id": "B010", "title": "时间简史", "category": "科普", "borrowCount": 16 }
+]
