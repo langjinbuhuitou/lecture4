@@ -15,8 +15,9 @@ class Book {
         id: j['id'] as String,
         title: j['title'] as String,
         category: j['category'] as String,
-        // JSON 数字可能是 int 或 double，先断言为 num 再 toInt 最稳
-        borrowCount: (j['borrowCount'] as num).toInt(),
+        // JSON 数字可能是 int 或 double，先断言为 num 再 toInt 最稳；
+        // 字段缺失时默认 0，避免 null 断言崩溃
+        borrowCount: (j['borrowCount'] as num?)?.toInt() ?? 0,
       );
 
   Map<String, dynamic> toJson() => {
